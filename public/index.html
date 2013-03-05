@@ -1,29 +1,9 @@
 <html>
+<head>
+
+</head>
 <body>
-<form id="payment" action="https://core.spreedly.com/v1/payment_methods" method="POST">
-  <fieldset>
-    <input name="redirect_url" type="hidden" value="http://spreedly-test.herokuapp.com/response.html" />
-    <input name="environment_key" type="hidden" value="COS96v2dy5hJ5V7kQJHBsqolQG7" />
-
-    <label for="credit_card_first_name">First name</label>
-    <input id="credit_card_first_name" name="credit_card[first_name]" type="text" />
-
-    <label for="credit_card_last_name">Last name</label>
-    <input id="credit_card_last_name" name="credit_card[last_name]" type="text" />
-
-    <label for="credit_card_number">Card Number</label>
-    <input id="credit_card_number" name="credit_card[number]" type="text" />
-
-    <label for="credit_card_verification_value">Security Code</label>
-    <input id="credit_card_verification_value" name="credit_card[verification_value]" type="text" />
-
-    <label for="credit_card_month">Expires on</label>
-    <input id="credit_card_month" name="credit_card[month]" type="text" />
-    <input id="credit_card_year" name="credit_card[year]" type="text" />
-
-    <button id="submitButton">Submit Payment</button>
-  </fieldset>
-</form>
+<iframe src="/iframe.html"></iframe>
 </body>
 </html>
 
