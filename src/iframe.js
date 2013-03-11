@@ -21,5 +21,3 @@ jQuery.fn.iframeSubmit = function(callback) {
     return false;
   });
 };
-
-//    $('#iframejs-frame').contents().find('form').append('<input name="redirect_url" type="hidden" value="http://local.milyoni.net:3000/response" />');
