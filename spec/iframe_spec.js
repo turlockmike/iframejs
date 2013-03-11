@@ -17,10 +17,13 @@ describe("Iframe js", function() {
     $DOM.find("#form").iframeSubmit($callback);
     runs(function() {
       $DOM.find("#form").submit();
+      expect($DOM.find('iframe').length).toEqual(1);
     })
     waitsFor(function() {
       return called = true;
     })
+    expect($DOM.find('iframe').length).toEqual(0);
+
   });
 
 });
