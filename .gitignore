@@ -1,2 +1,4 @@
 .idea
 junk*
+node_modules/
+.DS_Store
