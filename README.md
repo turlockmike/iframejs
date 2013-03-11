@@ -36,4 +36,8 @@ $("form").iframeSubmit(function(response) {
 });
 
 
+To run specs (Must have node package manager installed)
+npm install
+node app.js
+open the browser to http://localhost:8080/specRunner.html
 
