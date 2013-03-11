@@ -1,14 +1,11 @@
 <html>
 <head>
-  <script type="text/javascript">
-      var response = function() {
-        window.postMessage("success", null);
-      }
-    response();
-  </script>
+
 </head>
 <body>
+<script type="text/javascript">
+    top.postMessage("success!!!", 'http://localhost:8080/');
+</script>
 </body>
 </html>
-
 
